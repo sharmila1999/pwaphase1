@@ -1,0 +1,42 @@
+body{
+	background: aqua;
+}
+#maindiv{
+	width:75%;
+	display: flex;
+	background:pink;
+	justify-content: space-around;
+	margin: 10%;
+	border-radius: 2%;
+}
+.subdiv{
+	width: 50%;
+	background: bisque;
+	margin:5%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 5px 5px 5px 5px;
+}
+.subdiv:hover{
+	background: red;
+	box-shadow: 5px 5px 5px 5px yellow;
+}
+@media screen and (max-width: 480px){
+	#maindiv{
+		display: inline-block;
+		background:red;
+	    justify-content: space-around;
+	    margin: 10%;
+	    border-radius: 2%;
+	    width: 75%;
+	}
+	.subdiv{
+		width: 150%;
+	    background: bisque;
+	    margin:5%;
+	    border-radius: 5%;
+	    text-align: center;
+	    box-shadow: 5px 5px 5px 5px;
+      }
+	}
+}

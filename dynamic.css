@@ -1,0 +1,86 @@
+body{
+	background: #FF0C00;
+	background-image: url(pic1.jpeg);
+}
+.main{
+	display: flex;
+	background: violet;
+	justify-content: space-around;
+	margin: 3%;
+}
+.left{
+	background: aqua;
+	height:45%;
+	width: 30%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px;
+	border-radius: 4px;
+	margin: 2%;
+}
+.left img{
+	width:50%;
+	height: 50%;
+}
+.right{
+	background: bisque;
+	margin:2%;
+	width: 60%;
+	box-shadow: 3px 3px 3px 3px;
+	border-radius: 4px;
+	padding: 3%;
+}
+@media screen and (max-width:480px) {
+	body{
+		background :blue;
+		background-image: url(pic3.jpg);
+	}
+	.main{
+	background: violet;
+	display: inline-block;
+	margin: 1%;
+	justify-content: space-around;
+    }
+    .left{
+	background: aqua;
+	width: 96%;
+	height: 50%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px;
+	border-radius: 4px;
+	margin: 1%;
+    }
+    .right{
+	background: bisque;
+	margin:1%;
+	width: 94%;
+	box-shadow: 2px 2px 2px 2px;
+	border-radius: 4px;
+	padding: 3%;
+   }
+}
+@media screen and (min-width:481px) and (max-width:680px) {
+	body{
+		background: lightyellow;
+		background-image: url(pic2.jpeg);
+	}
+	.main{
+	display: flex;
+	background: violet;
+	margin: 3%;
+	justify-content: space-around;
+}
+.left{
+	background: aqua;
+	height:45%;
+	width: 30%;
+	text-align: center;
+	box-shadow: 3px 3px 3px 3px;
+	border-radius: 4px;
+	margin: 2%;
+}
+.right{
+	background: bisque;
+	text-orientation: wrap;
+	font-size: 10px;
+}
+}

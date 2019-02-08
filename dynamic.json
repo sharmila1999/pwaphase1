@@ -1,0 +1,45 @@
+{
+	"profile":{
+		"img":"pp.png",
+		"name":"M Shartmila",
+		"roll":"17A31A0519",
+		"institute":"Pragati Engineering College",
+		"place":"Surampalem"
+	},
+	"career":{
+		"info":"To reach highest peak in my work"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"Btech",
+			"institute":"Pragati",
+			"yop":"2021"
+		},
+		{
+			"sno":"2",
+			"degree":"Inter",
+			"institute":"Narayana Junior College",
+			"yop":"2017"
+		},
+		{
+			"sno":"3",
+			"degree":"SSC",
+			"institute":"Narayana e-techno School",
+			"yop":"2015"
+		
+	    },
+			
+	],
+	"languages":[
+		{
+			"lang":"english"
+		},
+		{
+			"lang":"hindi"
+		},
+		{
+			"lang":"telugu"
+		}
+	]
+}
